@@ -1,0 +1,39 @@
+\documentclass[uplatex,a4paper]{jsarticle}
+
+
+\usepackage[uplatex]{otf}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{url}
+\usepackage{color}
+
+\title{外国債券(為替ヘッジなし)のリスクは、ほとんど為替から}
+\author{http://d.hatena.ne.jp/teramonagi/20180131/1517386640}
+\date{}
+
+\begin{document}
+
+\maketitle
+\hrule
+\medskip
+
+\section{記号の準備}
+外国債券の時点tでの現地通貨建て価格: $P_{USD}(t)$
+
+外国債券の時点tでの円建て価格:  $P_{JPY}(t)$
+
+時点tでのUSDJPYレート： $USDJPY(t)$
+
+日次リターン（P(t)はある価格、tは日付を仮定）： R(t) = P(t)/P(t-1) - 1
+
+日次リスク（リスク＝標準偏差で定義、stdevは標準偏差）:  Risk(t) = stdev(R_t)
+
+
+
+\end{document}
