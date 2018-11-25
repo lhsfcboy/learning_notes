@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>AI Webアプリケーション</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#83c666;">
+        <div class="navbar-header">
+          <a href="" class="navbar-brand">
+            <font color="white">
+              AI Webアプリケーション
+            </font>
+          </a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row" style="padding:160px 0 0 0">
+      <div class="col-sm-1">
+        <!-- 余白 -->
+      </div>
+
+      <div class="col-sm-6">
+
+        <!-- アップロードした画像を表示します -->
+        <!-- もしも画像がアップロードされていたら、そのファイルを表示します -->
+        <!-- もしも画像がアップロードされていなければ、No Imageの画像を表示します -->
+        <!-- Write Me -->
+        {% if predict %}
+          <img src="{{filepath}}" width="412" height="412" class="img-thumbnail img-responsive">
+        {% else %}
+          <img src="./static/no_image.png" BORDER="1" width="412" height="412" class="img-thumbnail img-responsive">
+        {% endif %}
+
+        <div style="margin-top : 16px">
+
+          <!-- 画像をアップロードする部分をコーディングします -->
+          <form action = "./" method = "POST" enctype = "multipart/form-data">
+            
+            <label for="InputFile" class="btn btn-default btn-md">画像をアップロード 
+              <!-- 画像をアップロードする部分を作成します -->
+              <!-- Write Me -->
+              <input name="file" class="hide" type="file" id="InputFile"/>
+            </label>
+
+            <!-- 送信ボタンを作成作成します -->
+            <!-- Write Me -->
+            <input class="btn btn-primary btn-md" type="submit" style="margin: 0px 0px 0px 10px;">
+          </form>
+
+        </div>    
+      </div>
+
+      <div class="col-sm-5">
+        <!-- アプリの概要を記述してください -->
+        <!-- Write Me -->
+        <h2>手書き文字認識アプリ</h2>
+          <p>このアプリは、手書きの数字画像をアップロードすると、どの数字が書かれているかを判定するアプリです。<br>
+              学習済みの畳み込みニューラルネットワーク（CNN）モデルを用いて、どの数字が書かれているか最も確率の高い数字を表示します。
+          </p>
+
+        <div style="margin-top : 120px">
+          <!-- 判定結果を出力します -->
+          <!-- 変数predictを受け取って、表示をしてください -->
+          <!-- Write Me -->
+          {% if predict %}
+            <center>
+              <font size="5" color="red">判定結果は「{{predict}}」です！</font>              
+            </center>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

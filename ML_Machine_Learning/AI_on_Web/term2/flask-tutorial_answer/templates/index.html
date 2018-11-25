@@ -1,0 +1,26 @@
+<html>
+ <head>
+  <!-- ページのタイトルを記入してください -->
+  <!-- Write Me -->
+  <title>Flask入門</title>
+ </head>
+
+ <body>
+    <!-- Flaskでは、{% %}で変数名を囲むことによって、変数を渡すことができます -->
+    <!-- 変数messageを渡して表示をしてください -->
+    <!-- Write Me -->
+    <h1>Pythonによる機械学習</h1>
+    <h1>{{message}}</h1>
+  
+    
+    <!-- また、html内に、{% %}で囲うことによって、if文を記述することができます -->
+    <!-- 変数messageがある場合と、ない場合で出力する内容を変えてください -->
+    <!-- Write Me -->
+    {% if message %}
+      <h1>{{message}}</h1>      
+    {% else %}        
+      <h1>Pythonによる機械学習</h1>
+    {% endif %}
+  
+ </body>
+</html>
