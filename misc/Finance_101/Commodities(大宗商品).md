@@ -27,5 +27,11 @@
 
 ###### 卑金属（或称贱金属、基本金属，英语：base metal）
 
+Base metals include aluminum, copper, lead, nickel, tin and zinc.
+nonferrous非黑色金属，meaning they contain no iron 也就是 非铁金属。
 
-
+- aluminum 铝Al アルミニウム/アルミ
+- copper 铜Cu 銅(どう)
+- lead 铅Pb 鉛(なまり)
+- tin 锡Sn スズ
+- zinc 锌Zn 亜鉛(あえん)
