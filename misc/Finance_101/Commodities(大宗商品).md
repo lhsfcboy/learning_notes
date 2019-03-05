@@ -1,10 +1,45 @@
+## 能源期货及期权
+
+- WTI轻质低硫原油,    Crude Oil,        CL, 
+- E-mini轻质低硫原油, E-mini Crude Oil, QM  
+- Henry Hub天然气,   Henry Hub Natural Gas, NG  Natural Gas
+- RBOB汽油,          RBOB Gasoline   RB  Refined products
+- 布伦特原油最后一日现金结算, Brent Last Day Financial, BZ, Crude Oil
+- 燃油, NY Harbor ULSD, HO, Refined products Heating Oil
+- Argus丙烷远东指数期货, Argus Propane Far East Index, A7E
+
+
+###### WTI（西德克萨斯中质原油）
+
+轻质低硫混合原油。'轻质’指的是粘稠度和硫含量低，非常适合转化成汽油和柴油。该合约的交易代码为CL，意为“轻质原油”。
+
+
+## Metal 金属
+
+###### 贵金属（Precious metal）
+
+通常用来指代黄金、银、铂、鈀四种价格昂贵、外表美观、化学性质稳定、具有较强的保值能力的金属
+- 黄金	Au	Gold	    GC XAU(one troy ounce of gold)
+- 白银 	Ag	Silver	  SI SIL XAG
+- 铂金	Pt	Platinum 	PL 又称白金, PLT XPT 
+- 钯金 	Pd	Palladium	PA 伦敦钯金,XPD
+
+###### 卑金属（或称贱金属、基本金属，英语：base metal）
+
+Base metals include aluminum, copper, lead, nickel, tin and zinc.
+nonferrous非黑色金属，meaning they contain no iron 也就是 非铁金属。
+
+- Aluminum 铝 Al アルミニウム/アルミ
+- Copper   铜 Cu 銅(どう)
+  - 精铜期货(HG) 期权(HXE)
+- Lead     铅 Pb 鉛(なまり)
+- Tin      锡 Sn スズ
+- Zinc     锌 Zn 亜鉛(あえん)
 
 
 
 
-
-
-## metal 金属
+##### 金属的工业分类
 
 ###### 黑色金属
 工业上对铁、铬和锰的统称。亦包括这三种金属的合金，尤其是合金钢及钢铁。与黑色金属相对的是有色金属。
@@ -20,18 +55,3 @@
 工业上对金属的一种分类，指除铁、铬、锰外，存在自然界中的金属（不包括人工合成元素）。有色金属相对的是黑色金属。
 
 常用的有色金属包括铜、铝、铅、锌、镍、锡、锑、汞、镁及钛，这十种金属在中国固定地称为“十种有色金属”或“十种常用有色金属”。
-
-###### 贵金属（Precious metal）
-
-通常用来指代黄金、银、铂、鈀四种价格昂贵、外表美观、化学性质稳定、具有较强的保值能力的金属
-
-###### 卑金属（或称贱金属、基本金属，英语：base metal）
-
-Base metals include aluminum, copper, lead, nickel, tin and zinc.
-nonferrous非黑色金属，meaning they contain no iron 也就是 非铁金属。
-
-- aluminum 铝Al アルミニウム/アルミ
-- copper 铜Cu 銅(どう)
-- lead 铅Pb 鉛(なまり)
-- tin 锡Sn スズ
-- zinc 锌Zn 亜鉛(あえん)
