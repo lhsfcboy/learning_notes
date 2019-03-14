@@ -1,10 +1,13 @@
 ## 能源期货及期权
 
 - WTI轻质低硫原油,    Crude Oil,        CL, 
+  - WTI, XTI
 - E-mini轻质低硫原油, E-mini Crude Oil, QM  
 - Henry Hub天然气,   Henry Hub Natural Gas, NG  Natural Gas
+  - NG, XNG
 - RBOB汽油,          RBOB Gasoline   RB  Refined products
 - 布伦特原油最后一日现金结算, Brent Last Day Financial, BZ, Crude Oil
+  - BRT, XBR
 - 燃油, NY Harbor ULSD, HO, Refined products Heating Oil
 - Argus丙烷远东指数期货, Argus Propane Far East Index, A7E
 
@@ -19,10 +22,10 @@
 ###### 贵金属（Precious metal）
 
 通常用来指代黄金、银、铂、鈀四种价格昂贵、外表美观、化学性质稳定、具有较强的保值能力的金属
-- 黄金	Au	Gold	    GC XAU(one troy ounce of gold)
-- 白银 	Ag	Silver	  SI SIL XAG
-- 铂金	Pt	Platinum 	PL 又称白金, PLT XPT 
-- 钯金 	Pd	Palladium	PA 伦敦钯金,XPD
+- 黄金	Au	Gold	    GC, GLD, XAU(one troy ounce of gold)
+- 白银 	Ag	Silver	  SI, SIL, XAG
+- 铂金	Pt	Platinum 	PL, 白金, PLT XPT 
+- 钯金 	Pd	Palladium	PA, PLD, XPD
 
 ###### 卑金属（或称贱金属、基本金属，英语：base metal）
 
@@ -30,16 +33,21 @@ Base metals include aluminum, copper, lead, nickel, tin and zinc.
 nonferrous非黑色金属，meaning they contain no iron 也就是 非铁金属。
 
 - Aluminum 铝 Al アルミニウム/アルミ
+  - ALM, XAL
 - Copper   铜 Cu 銅(どう)
+  - CPL, XCU
   - 精铜期货(HG) 期权(HXE)
 - Lead     铅 Pb 鉛(なまり)
+  - LED, XPB
 - Tin      锡 Sn スズ
 - Zinc     锌 Zn 亜鉛(あえん)
-
+  - ZIN, XZN
+  
 ###### 其他常见交易金属
 
 - 镍, Ni, Nickel
-
+  - NIK, XNI
+  
 ###### 金属的工业分类
 
 - 黑色金属
