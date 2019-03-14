@@ -56,6 +56,18 @@ For example the Euro currency symbol is EC, however, CSI uses CU.
 
 Keyword: CME ClearPort场外交易(OTC)系统简介
 
+### IRF Interest Rate Future 利率期货
+
+利率期货是指以债券类证券为标的物的期货合约. 在美国，利率期货的成交量甚至已占到整个期货交易总量的一半以上。
+
+### FRA Forward Rate Agreement 远期利率协议
+
+- 报价
+
+“6×9、8.03％～8.09％”的市场术语作如下解释：“6×9”(6个月对9个月，英语称为six against nine)是表示期限，即从交易日(7月13日)起6个月末(即次年1月13日)为起息日，而交易日后的9个月末为到期日，协议利率的期限为3个月期。
+
+“8.03％~8.09％”为报价方报出的FRA买卖价：前者是报价银行的买价，若与询价方成交，则意味着报价银行(买方)在结算日支付8.03％利率给询价方(卖方)，并从询价方处收取参照利率。后者是报价银行的卖价，若与询价方成交，则意味着报价银行(卖方)在结算日从询价方(买方)处收取8.09％利率，并支付参照利率给询价方。
+
 ### NDF Non-Deliverable Forward 无本金交割远期
 
 柜台交易的外汇衍生产品。A non-deliverable forward (NDF) is a cash-settled and usually short-term forward contract. 相对于本地银行即可操作的普通远期外汇交易，NDF一般只能由海外银行承做。NDF的核心观念在于交易双方对某一汇率的预期不同。无本金交割远期外汇交易由银行充当中介机构，供求双方基于对汇率看法（或目的）的不同，签订非交割远期交易合约，该合约确定远期汇率，合约到期时只需将该汇率与实际汇率差额进行交割清算，结算的货币是自由兑换货币（一般为美元），无需对NDF的本金（受限制货币）进行交割。针对有外汇管制的国家或地区，无需对本金进行交割。无本金交割远期外汇交易与远期外汇交易的差别在于，不用备有本金的收付，只要就到期日的市场汇率价格与合约协定价格的差价进行交割清算
@@ -63,3 +75,5 @@ Keyword: CME ClearPort场外交易(OTC)系统简介
 The largest NDF markets are in the Chinese remnimbi, Indian rupee, South Korean won, new Taiwan dollar, and Brazilian real. The largest segment of NDF trading takes place in London, with active markets also in Singapore and New York. Some countries, including South Korea, have limited but restricted onshore forward markets in addition to an active NDF market.交易活跃、规模巨大、不断发展的无本金交割远期外汇(NDF)市场上，主要有（韩元、新台币、人民币、印度卢比、印度尼西亚卢比和菲律宾比索）等六种亚洲货币进行交易。这些离岸市场是世界和亚洲外汇市场的重要组成部分，在资本管制的情况下平衡着市场的供需。The largest segment of NDF trading is done via the U.S. dollar. There are also active markets using the euro, the Japanese yen, and, to a smaller extent, the British pound, and the Swiss franc.
 
 甲公司为一进口商，目前即期汇率为 8.2760 ，为规避三个月后的汇率风险，于是向银行预购三个月期的远期美元 1000000 元，成交价格为 8.2660 ，假设三个月后，人民币兑美元的汇率变成 8.2810 ，若甲公司当初是以交割远期外汇(DF)方式承作，则在契约到期当日，甲公司必须以人民币 8266000 元向银行购入美元 1000000 元，这就是所谓全额交割；若 以NDF方式承作，则因为甲公司已于三个月前锁住美元在 8.2660 水准，如今美元已涨至8.2810 ，所以甲公司的NDF头寸已产生利润，银行应付给甲公司 (8.2810-8.2660) * 1000000 / 8.2810 = 1811.37 **美元**。这就是所谓净额交割。
+
+The settlement of an NDF is closer to that of a forward rate agreement (FRA) than to a traditional forward contract.
