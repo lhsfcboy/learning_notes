@@ -6,8 +6,23 @@ The trading week begins with Wellington New Zealand open on Monday morning at 4a
 
 Volume goes much higher during economic events or announcements which lead to currency volatility.
 
-
 阅读本文需要读者有基本的股票证券市场知识。
+
+## 报价
+
+一个货币对报价中的第一个货币为基础货币，而第二个货币为报价货币。
+
+- EUR/USD @1.25
+
+如果您以1.1250买入欧元/美元，您将支付1.1250美元（USD）换取一单位的欧元（EUR）。
+
+## 基差
+
+货币对的期货价格和现货价格之间的差额被称为“基差”。
+
+如果报价货币的短期利率低于基础货币的短期利率，期货应该以现货价格的折价交易。基差（期货减去现货）将报价为负数。
+
+墨西哥比索/美元期货的美式报价为MXN/USD。墨西哥比索是基础货币。假设它的短期利率为4.25%，设美元的同等期限短期利率为0.70%。美元利率低于墨西哥比索利率。这意味着正利差，所以期货价格应该低于现货。 
 
 ###### Business Breakdown
 
