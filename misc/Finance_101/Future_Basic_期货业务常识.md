@@ -1,4 +1,8 @@
 
+## 期货交易基础
+
+合约的交易在指定交割日期前几天停止。
+
 ## 期货合约代码
 
 期货合约代码，通常是一到三个识别产品的字母代码，随其后的则是表示到期年月的额外字符。
@@ -48,3 +52,11 @@ For example the Euro currency symbol is EC, however, CSI uses CU.
 为了便于清算与风险控制，交易所需要对OTC产品进行标准化。交易所推出的标准化OTC衍生品合约在合约规格和保证金要求等方面都与在电子市场进行公开交易的衍生品合约更加近似，但在交易模式、市场参与者等方面与电子交易还是有着显著不同.
 
 Keyword: CME ClearPort场外交易(OTC)系统简介
+
+### NDF Non-Deliverable Forward 无本金交割远期
+
+A non-deliverable forward (NDF) is a cash-settled and usually short-term forward contract. 
+
+The largest NDF markets are in the Chinese remnimbi, Indian rupee, South Korean won, new Taiwan dollar, and Brazilian real. The largest segment of NDF trading takes place in London, with active markets also in Singapore and New York. Some countries, including South Korea, have limited but restricted onshore forward markets in addition to an active NDF market.
+
+The largest segment of NDF trading is done via the U.S. dollar. There are also active markets using the euro, the Japanese yen, and, to a smaller extent, the British pound, and the Swiss franc.
