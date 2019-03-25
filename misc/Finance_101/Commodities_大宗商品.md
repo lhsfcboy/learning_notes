@@ -24,8 +24,8 @@
 通常用来指代黄金、银、铂、鈀四种价格昂贵、外表美观、化学性质稳定、具有较强的保值能力的金属
 - 黄金	Au	Gold	    GC, GLD, XAU(one troy ounce of gold)
 - 白银 	Ag	Silver	  SI, SIL, XAG
-- 铂金	Pt	Platinum 	PL, 白金, PLT XPT 
-- 钯金 	Pd	Palladium	PA, PLD, XPD
+- 铂金	Pt	Platinum 	PL, 白金, PLT XPT, プラチナ 
+- 钯金 	Pd	Palladium	PA, PLD, XPD, パラジウム
 
 ###### 卑金属（或称贱金属、基本金属，英语：base metal）
 
