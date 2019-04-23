@@ -1,0 +1,29 @@
+## less
+
+### 常用参数
+-i
+-e
+-n
+
+
+
+
+
+## grep
+
+### 常用参数
+-v or --invert-match
+-i or --ignore-case
+--color=always
+-n, 显示行号
+-r, 指定目标为文件夹时, 搜索结果显示文件名
+
+### GNU Only
+-P or --perl-regexp, PCRE-enabled grep, to use advanced function of regexp, e.g. negative lookahead
+
+-B num to set how many lines before the match and 
+-A num for the number of lines after the match.
+-C num same number of lines before and after
+
+### 实例
+grep -i --color=always
