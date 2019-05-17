@@ -1,10 +1,15 @@
 ## less
 
-### 常用参数
+https://linux.die.net/man/1/less
+https://ss64.com/bash/less.html
+
+### 参数 OPTIONS
 -i
 -e
 -n, 加速跳转到文件底部
 -f, 强制打开, 避免系统提示是否打开文件
+
+### 命令 Commands
 
 ### 实例
 less -in
