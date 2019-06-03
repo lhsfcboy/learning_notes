@@ -2,7 +2,7 @@
 ## 参考
 
 - [IBM: 使用 screen 管理你的远程会话](https://www.ibm.com/developerworks/cn/linux/l-cn-screen/index.html)
-
+- [Screen User’s Manual](https://www.gnu.org/software/screen/manual/screen.html)
 ## 安装与版本检查
     apt-get -y install screen
     yum -y install screen
