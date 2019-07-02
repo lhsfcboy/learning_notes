@@ -1,15 +1,38 @@
+#### 即期/远期交易 Spot/FWD Transaction
+
 - Cash: 当日交割
 - TOM: 隔日交割
-- ON: Over-Night隔夜，即当天起息，次日交割
-- TN: Tom-Next，即次日（Tom就是Tomorrow）起息，第三日交割
-  - In most currency trades, delivery is two days after the transaction date. Tom-next trades arise because most currency traders have no intention of taking delivery of the currency so require their positions to be 'rolled-over' on a daily basis.This simultaneous transaction is an FX swap, and depending on what currency the person holds, they will either be charged or earn a premium. Those traders and investors holding high yielding currencies will roll it over at a more favorable rate (minimal) because of the interest rate differential. This differential is known as the cost of carry. 
+- Spot: 通常的T+2即期
 - SN: Spot-Next，即期起息（即期的天数随币种而不一样，多数为2天），即期的次日交割
   - It denotes the delivery of purchased currency on a day after the spot date.
   - Spot-next is otherwise known as "next business day."
-  - 
-- 1W: 即期起息，即期后的一周交割
-- 1M: 即期起息，即期后的一月交割
-- 1Y: 即期起息，即期后的一年交割
+- B1, B2, ... B5: Spot + n Business Day
+- IMM1, IMM2 BFF(First Future), BSF(Second Future)
+  - IMM1 and IMM2 tenors are the most common ones. They correspond to futures market (front-future and the second front-future) .Normally only the first one is liquid but at points the second one also is. As a market standard no one really cares about the ones beyond 1 and 2
+
+E.g. 2019, 
+- Mar 3rd Wed, 20th
+- Jun 3rd Wed, 19th
+- Sep 3rd Wed, 18th
+- Dec 3rd Wed, 18th
+
+Contract Date 20190702,   IMM1 ==>  20190918, IMM2 ==> 20191218
+
+#### 掉期交易 Swap Transaction
+
+-（1）第一个交割日称为近期（Near Date），即比较靠近换汇交易交易日的那个交割日。
+-（2）第二个交割日称为远期（Far Date），即离交易日比较远的那个交割日。
+
+即期对即期的掉期交易
+- O/N（Over-Night）：从交易日起，到次一营业日止的换汇交易。
+  - Over-Night隔夜，即当天起息，次日交割
+- T/N（Tom-Next）：从交易日后的次一营业日起，到次二营业日止的换汇交易。
+  - Tom-Next，即次日（Tom就是Tomorrow）起息，第三日交割
+  - In most currency trades, delivery is two days after the transaction date. Tom-next trades arise because most currency traders have no intention of taking delivery of the currency so require their positions to be 'rolled-over' on a daily basis.This simultaneous transaction is an FX swap, and depending on what currency the person holds, they will either be charged or earn a premium. Those traders and investors holding high yielding currencies will roll it over at a more favorable rate (minimal) because of the interest rate differential. This differential is known as the cost of carry. 
+  
+##### 外汇保证金
+
+外汇保证金交易是没有实质性交割的，零售市场的隔夜利息的计算是基于外汇掉期交易里面的即期对即期掉期交易，并且采用的是T/N（Tom-Next），而不是O/N（Over-Night）。
 
 #### T+1 即期交易
 
