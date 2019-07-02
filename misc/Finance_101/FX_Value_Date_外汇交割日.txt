@@ -1,3 +1,11 @@
+ON: Over-Night隔夜，即当天起息，次日交割
+TN: Tom-Next，即次日（Tom就是Tomorrow）起息，第三日交割
+SN: Spot-Next，即即期起息（即期的天数随币种而不一样，多数为2天），即期的次日交割
+1W: 即期起息，即期后的一周交割
+1M: 即期起息，即期后的一月交割
+1Y: : 即期起息，即期后的一年交割
+
+
 <http://www.londonfx.co.uk/valdates.html>
 
 Introduction 
