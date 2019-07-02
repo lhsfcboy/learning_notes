@@ -10,10 +10,17 @@
 - 1M: 即期起息，即期后的一月交割
 - 1Y: : 即期起息，即期后的一年交割
 
+#### T+1 即期交易
 
+- USD/CAD
+- USD/TRY, Turk, Lirasi
+- USD/PHP, Pilipinas, Pisong
+- USD/RUB, Russian, Ruble
+
+
+#### Introduction 
 <http://www.londonfx.co.uk/valdates.html>
 
-Introduction 
 
 Value dates are the dates on which FX trades settle, i.e. the date that the payments of each currency are made. The value dates for most FX trades are "spot", which generally means two business days from the trade date (T+2). The most notable exception to this rule is USD/CAD, which has a spot date one business day from the trade date (T+1). Spot dates for CAD crosses (e.g. GBP/CAD) normally take the spot date of the crossed currency pair and are therefore T+2. 
 
