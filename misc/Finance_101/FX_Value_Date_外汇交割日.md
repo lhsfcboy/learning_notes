@@ -3,7 +3,6 @@
 - ON: Over-Night隔夜，即当天起息，次日交割
 - TN: Tom-Next，即次日（Tom就是Tomorrow）起息，第三日交割
   - In most currency trades, delivery is two days after the transaction date. Tom-next trades arise because most currency traders have no intention of taking delivery of the currency so require their positions to be 'rolled-over' on a daily basis.This simultaneous transaction is an FX swap, and depending on what currency the person holds, they will either be charged or earn a premium. Those traders and investors holding high yielding currencies will roll it over at a more favorable rate (minimal) because of the interest rate differential. This differential is known as the cost of carry. 
-  
 - SN: Spot-Next，即期起息（即期的天数随币种而不一样，多数为2天），即期的次日交割
   - It denotes the delivery of purchased currency on a day after the spot date.
   - Spot-next is otherwise known as "next business day."
