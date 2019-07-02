@@ -52,7 +52,7 @@ Forward trades
 
 It is possible to settle trades on dates other than the spot date, in which case the rate will be adjusted by forward points to compensate for the interest rate differential between the two currencies being traded. In addition to the spot date, there are many standard tenors (periods) on which it is possible to settle an FX trade. These include “1 month”, “tomorrow” (tom) and “6 months”. The post-spot tenors are calculated from the spot date rather than from the trade date. It is also possible to settle on any value date between any standard tenor. This is known as a “broken date”. 
 
-Value date roll-over 
+###### Value date roll-over 交割日的区分时间点
 
 For all currency pairs except NZD/USD, global market convention is that value dates roll forward at 5pm New York time. Value dates for NZD/USD roll forward at 7am Auckland time. This means that the local time of the value date roll-over varies throughout the year, depending on daylight savings time conventions, as follows: 
 
@@ -66,6 +66,8 @@ Last Sunday in March	BST	EDT	NZDT	21:00	18:00	22:00	19:00	14:00	10:00
 Last Sunday in September	BST	EDT	NZDT	21:00	18:00	22:00	19:00	14:00	10:00
 Last Sunday in October	GMT	EDT	NZDT	21:00	18:00	21:00	18:00	14:00	10:00
 1st Sunday in November	GMT	EST	NZDT	22:00	18:00	22:00	18:00	13:00	11:00
+
+NY 1700 is TK +1,0600
 
 
 Currency holidays 
