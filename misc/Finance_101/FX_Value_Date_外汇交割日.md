@@ -10,8 +10,10 @@
 - fixed tenors
   - 1W, 1M, 2M, 3M, 6M, 9M, 1Y were considered fixed tenors
   - anything else was called Broken Periods/Tenors
-- IMM1, IMM2 BFF(First Future), BSF(Second Future)
+- IMM1, IMM2 
   - IMM1 and IMM2 tenors are the most common ones. They correspond to futures market (front-future and the second front-future) .Normally only the first one is liquid but at points the second one also is. As a market standard no one really cares about the ones beyond 1 and 2
+- BFF(First Future), BSF(Second Future)
+  - 仅用于 BRL(巴西雷亚尔) 
 
 E.g. 2019, 
 - Mar 3rd Wed, 20th
